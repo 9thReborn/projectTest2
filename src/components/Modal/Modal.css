@@ -1,0 +1,22 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalFormWrapper {
+	height: 100%;
+	padding: 0 1rem;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  height: 100%;
+  justify-content: space-around;
+}
